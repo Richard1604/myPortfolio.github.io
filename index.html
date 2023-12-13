@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ------ Css ------- -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ------ RemixIcon ------- -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- ------ BoxIcon ------- -->
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" rel="stylesheet">
+    <title>My Portfolio</title>
+    <link rel="icon" href="logo/logo.jpg">
+</head>
+<body>
+    <!-- ---------------- Header --------------- -->
+    <header>
+        <a href="#profile" class="logo"><img src="logo/logo.jpg" alt="logo"></a>
+
+        <div class="nav-container">
+            <ul class="navbar">
+                <li class="nav-link active-link"><a href="#profile">Home</a></li>
+                <li class="nav-link"><a href="#about">About Me</a></li>
+                <li class="nav-link"><a href="#skills">Skills</a></li>
+                <li class="nav-link"><a href="#projects">Projects</a></li>
+                <li class="nav-link"><a href="#contact">Contact Me</a></li>
+                <div class="underline"></div>
+            </ul>
+            
+            <div class="nav-button">
+                <i class="bx bx-moon change-theme" id="theme-button"></i>
+                <a href="#"><i class="bx bx-menu" id="menu-icon"></i></a>
+            </div>
+        </div>
+
+    </header>
+    <!-- ---------------- Profile Section --------------- -->
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="p1.png" class="profile-pic">
+        </div>
+
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Richard</h1>
+            <p class="section__text__p2">Web Developer</p>
+            <p class="section__text__p3">With knowledge of web development and design,</br>I offer the best projects, resulting in quality work.</p>
+
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('RicardoCayanan-Cv.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+
+            <div id="socials-container">
+                <a href="#" target="_blank"><i class="ri-github-line social-icon"></i></a>
+                <a href="#" target="_blank"><i class="ri-instagram-line social-icon"></i></a>
+                <a href="#" target="_blank"><i class="ri-facebook-line social-icon"></i></a>
+            </div>
+
+        </div>
+    </section>
+    <!-- ---------------- About Section --------------- -->
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="text-container">
+                    <p>
+                        I am a junior front-end developer. I have a great interest in designing attractive websites, and I am currently looking for new opportunities to advance in this field.                        <br>
+                        I am interested in continuous learning and staying up-to-date with new technologies.
+                    </p>
+                </div>
+            </div>
+
+            <div class="section__pic-container">
+                <img src="p2.jpg" class="about-pic">
+            </div>
+        </div>
+        <img src="arrow.png" class="arrow">
+    </section>
+    <!-- ---------------- Skills Section --------------- -->
+    <section class="skills" id="skills">
+
+        <p class="section__text__p1">Favorite Skills</p>
+        <h1 class="title skill-text">My Skills</h1>
+
+        <div class="skill-content">
+            <div class="row">
+                <div class="icon row-img">
+                    <img src="s1.png" alt="">
+                    <p>HTML5</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="icon row-img">
+                    <img src="s2.png" alt="">
+                    <P>CSS</P>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="icon row-img">
+                    <img src="s3.png" alt="">
+                    <P>JavaScript</P>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="icon row-img">
+                    <img src="s4.png" alt="">
+                    <p>React Js</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="icon row-img">
+                    <img src="s5.png" alt="">
+                    <p>Tailwind Css</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="icon row-img">
+                    <img src="s6.png" alt="">
+                    <p>Next Js</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="icon row-img">
+                    <img src="s7.png" alt="">
+                    <p>PHP</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="icon row-img">
+                    <img src="s8.png" alt="">
+                    <p>Git</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ---------------- Project Section --------------- -->
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+
+                <div class="details-container">
+                    <div>
+                        <img src="socialbook-ss.jpg" class="project-img">
+                    </div>
+                    <div class="view-project">
+                        <h2 class="experience-sun-title project-title">Social Book</h2>
+                        <a class="btn btn-color-2 project-btn" href="#" target="_blank"><i class="ri-external-link-line"></i></a>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <div>
+                        <img src="travel-ss.jpg" class="project-img">
+                    </div>
+                    <div class="view-project">
+                        <h2 class="experience-sun-title project-title">Travel Website</h2>
+                        <a class="btn btn-color-2 project-btn" href="#" target="_blank"><i class="ri-external-link-line"></i></a>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <div>
+                        <img src="loginform-ss.jpg" class="project-img">
+                    </div>
+                    <div class="view-project">
+                        <h2 class="experience-sun-title project-title">Contact Form</h2>
+                        <a class="btn btn-color-2 project-btn" href="#" target="_blank"><i class="ri-external-link-line"></i></a>
+                    </div>
+
+            </div>
+        </div>
+        <img src="arrow.png" class="arrow">
+    </section>
+    <!-- ---------------- Contact Section --------------- -->
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+
+        <form action="https://formsubmit.co/richardcayanan1604@gmail.com" method="post" class="contact-form">
+            <div class="input-wrap">
+                <input class="contact-input" autocomplete="off" name="First Name" type="text" required/>
+                <label >First Name</label>
+                <i class="fa-solid fa-address-card form-icon"></i>
+            </div>
+            <div class="input-wrap">
+                <input class="contact-input" autocomplete="off" name="Last Name" type="text" required/>
+                <label >Last Name</label>
+                <i class="fa-solid fa-address-card form-icon"></i>
+            </div>
+
+            <div class="input-wrap w-100">
+                <input type="email" autocomplete="off" name="Email" class="contact-input">
+                <label>Email</label>
+                <i class="fa-solid fa-envelope form-icon"></i>
+            </div>
+
+            <div class="input-wrap textarea w-100">
+                <textarea name="Message" autocomplete="off" class="contact-input" required></textarea>
+                <label >Message</label>
+                <i class="fa-solid fa-inbox form-icon"></i>
+            </div>
+            <button class="btn btn-color-1">Send Message</button>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="New submission! Woohoooo!!!">
+            <input type="hidden" name="_next" value="thankyou.html">
+        </form>
+    </section>
+    <!-- ---------------- CopyRight --------------- -->
+    <p class="copyright">&#169; Richard. All right reserved 2023</p>
+    <!-- ---------------- Scroll Up --------------- -->
+    <a href="#profile" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+    
+    <!-- ------ CDN FontAwesome ------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <!-- ------ JavaScript ------- -->
+    <script src="script.js"></script>
+</body>
+</html>
