@@ -163,7 +163,7 @@ section {
 }
 
 .profile-pic {
-  border-radius: 40%;
+  border-radius: 2rem;
   box-shadow: 0 0 7px var(--shadow-color);
 }
 
@@ -320,13 +320,17 @@ section {
   padding: 20px;
   margin: 10px;
   cursor: pointer;
-  text-align: center; 
+  text-align: center;
 }
 
 .row-img img {
   height: 50%;
   display: inline-block;
   filter: brightness(70%);
+  padding-top: 10px;
+}
+.row-img p {
+  padding-top: 20px;
 }
 
 .row-img img:hover {
@@ -362,7 +366,7 @@ section {
 }
 
 .view-project {
-  display:  ruby;
+  display: ruby;
 }
 
 .project-img {
@@ -631,11 +635,10 @@ textarea.contact-input ~ .form-icon {
     font-size: 12px;
   }
 
-  .text-container p{
+  .text-container p {
     margin-top: 2rem;
     font-size: 18px;
   }
-
 
   .skill-content {
     display: grid;
